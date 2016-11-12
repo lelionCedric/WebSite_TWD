@@ -1,0 +1,30 @@
+<?php
+
+
+function pourcentageAvis($typeAvis, $nbAvisFav, $nbAvisDefav, $nbAvisIndif) {
+	
+	
+	$sommeAvis = $nbAvisFav + $nbAvisDefav + $nbAvisIndif ; 
+	
+	if($sommeAvis === '0') {
+			throw new \Exception('test') ;	
+		}
+	
+	
+	
+switch($typeAvis) {
+	case  "favorable" :
+		$pourcentage = $nbAvisFav / $sommeAvis * 100 ; 
+		echo "le pourcentage d'avis de type favorable est de : ".$pourcentage."%" ;
+		break;
+	case  "defavorable" :
+		$pourcentage = $nbAvisDefav / $sommeAvis * 100 ; 
+		echo "le pourcentage d'avis de type defavorable est de : ".$pourcentage."%" ;
+		break;
+	case "indifferent" :
+		$pourcentage = $nbAvisIndif / $sommeAvis * 100 ; 
+		echo "le pourcentage d'avis de type indifferent est de : ".$pourcentage."%" ;
+		break;
+	}
+}
+?>

@@ -1,0 +1,259 @@
+body {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-image: url(image/walkingdead.png);
+	background-position:center top;
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	font-family: police;
+	box-shadow: 25px 50px 500px black;
+	border-radius: 50px 50px 50px 50px;
+}
+
+
+#fondtransparent
+{
+background-color: rgba(105, 105, 105, 0.7);
+border-radius: 50px 50px 50px 50px;	
+}
+
+header
+{
+    
+text-align: right;
+
+}
+
+h3{
+color: red;	
+}
+	
+#actualiteserie{
+		margin-left: 10%;
+	}
+
+#actualitesite{
+		margin-left: 10%;
+	}
+
+aside.resume{
+	
+	color: darkgrey;
+	font-weight: bold;
+	text-indent: 5pt;
+	display: inline-block;
+	vertical-align:middle;
+	height: auto;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: orangered;
+	border-radius: 10px;
+	padding: 5px;
+	width: auto;
+	}
+
+.grostitre{
+
+	padding-left: 5px;
+	width: 100%;
+	background-color:darkgrey;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 0 5px 5px 0;	
+	}
+	
+.actualiteserie h2{
+		margin-bottom: 20px;
+		margin-top: 20px;	
+            font-family: police2;
+}
+.reprise{
+	
+	padding-left: 10px; 
+	}
+	
+.reprise a{
+	display: block;	
+	}
+
+
+
+.tableauacteurs{
+	background: black;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	
+	}
+
+.tableauacteurs thead td{
+	color: brown;
+	text-align: center;	
+	border-color: white;
+border-width: 1px;
+border-style: solid;	
+	}
+
+#tcorps td
+{
+color: darkgray;
+border-color: white;
+border-width: 1px;
+border-style: solid;
+font-family: monospace;
+font-size: 130%;	
+}
+
+a
+{
+text-decoration: none;
+}
+
+
+	
+#menue a{
+	font: 200% 'Lucida Sans Unicode';
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+	}
+	
+#menue a:hover{
+	background: darkgrey;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px white;
+	}
+
+#menue{
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding-left: 15%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-top: 0.7%; 
+}
+
+#menue td
+{
+width: 150px;	
+}
+	
+.MenuMedia li 
+{
+display: none;
+}
+
+
+	
+.MenuMedia:hover li
+{ 
+	display: block;
+	position: absolute;
+	background: linear-gradient(black, darkgrey);
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+	
+.MenuMedia li a
+{
+	margin-right: 5px;
+	margin-top: 5px;
+	display: block;
+	position: relative;
+}
+
+#thead{
+	font-size: 200%;
+	}
+footer
+{
+	border-style: solid;
+	border-top-color: black;
+	
+	text-align: center;
+	border-radius: 0px 0px 49px 49px;
+	background-color: peachpuff;
+	border-width: 2px;
+	margin-top: 10px;
+	margin-bottom: -3px;
+	}
+	
+
+#navsaisons{
+display: inline-block;	
+position: relative;
+bottom: 1000px;
+text-decoration: none;
+margin-left: 10px;
+
+}
+
+#toutelessaison{
+		display: inline-block;
+		position: relative;
+		top: 80px;	
+		width: 90%;
+		margin-bottom:80px;
+	}
+
+
+
+
+#dateMiseEnLigne
+{
+     color: white;
+     
+     padding-left: 900px;
+     position: absolute;
+}
+
+
+#dateCom
+{
+     color: white;
+     padding-left: 20px;
+     position: absolute;
+}
+
+
+
+.lesCommentaires p
+{ 
+	display: none;
+}
+.lesCommentaires form
+{ 
+	display: none;
+}
+
+.lesCommentaires:hover p
+{ 
+	display: block;
+	position: inherit;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.lesCommentaires:hover form
+{ 
+	display: block;
+	position: inherit;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.unCommentaire{	
+    margin-right: 0px;
+     margin-top: 0px;
+     display: block;
+position: relative;
+    color: red;
+}

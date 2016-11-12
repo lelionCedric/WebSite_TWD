@@ -1,0 +1,9 @@
+
+
+<?php
+function outputFinFichierHTML5() 
+{
+        echo "</body>\n</html>\n";
+}
+?>
+

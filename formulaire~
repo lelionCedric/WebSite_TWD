@@ -1,0 +1,21 @@
+<!doctype> html>
+<html>
+<head>
+	<meta  charset="UTF-8">	
+	<title>Formulaire de contact</title>
+</head>
+
+<body>
+	<label for="nom">Nom</label>
+	<input type="text" name="nom" id="=Nom" size="30"/>
+	<label for="telephone">Telephone(factultatif)</label>
+	<input type="text" name="telephone" id="Telephone"/>
+	
+	<select name="choix">
+		<textarea name="descriton" cols="50" rows="30"></textarea>
+		
+		
+	</select>	
+</body>
+
+</html>

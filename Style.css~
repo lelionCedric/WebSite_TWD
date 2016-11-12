@@ -1,0 +1,487 @@
+body {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-image: url(image/walkingdead.png);
+	background-position:center top;
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	font-family: police;
+	box-shadow: 25px 50px 500px black;
+	border-radius: 50px 50px 50px 50px;
+}
+
+@font-face{
+    font-family: police;
+    src: URL(belligerent.ttf);
+}
+
+@font-face{
+		font-family: police2;
+		src: URL(burnstown_dam.otf);
+		
+		}
+
+.logofb{
+	width: 2%;
+	display: block;
+	position: absolute;
+	left: 88%;
+	top: 210px;
+	
+}
+
+#likefb{
+	width: 40px;
+	display: block;
+	position: absolute;
+	left: 88%;
+	top: 190px;
+	}
+
+.logotwitter{
+	width: 3%;
+	display: block;
+	position: absolute;
+	left: 90%;
+	top: 201px; 
+}
+
+#fondtransparent
+{
+background-color: rgba(105, 105, 105, 0.7);
+border-radius: 50px 50px 50px 50px;	
+}
+
+header
+{
+text-align: center;
+text-decoration: underline;
+}
+
+h3{
+color: rosybrown;	
+	}
+	
+#actualiteserie{
+		margin-left: 10%;
+	}
+.videoteaser5{
+	display: block;	
+	}
+	
+
+p
+{
+	font-weight: bolder;
+	color: darkgrey;
+	width: 70%;
+	height: 20%;
+	padding: 10px;
+	margin-top: 20px;	
+	display: inline-block; 
+	vertical-align:middle;
+	
+}
+#actualitesite{
+		margin-left: 10%;
+	}
+
+aside.resume{
+	
+	color: darkgrey;
+	font-weight: bold;
+	text-indent: 5pt;
+	display: inline-block;
+	vertical-align:middle;
+	height: auto;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: orangered;
+	border-radius: 10px;
+	padding: 5px;
+	width: auto;
+	}
+
+.grostitre{
+
+	padding-left: 5px;
+	width: 100%;
+	background-color:darkgrey;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 0 5px 5px 0;	
+	}
+	
+.actualiteserie h2{
+		margin-bottom: 20px;
+		margin-top: 20px;}	
+	font-family:  police2;
+.reprise{
+	
+	padding-left: 10px; 
+	}
+	
+.reprise a{
+	display: block;	
+	}
+
+.synopsissaison{
+	padding-left: 10px;	
+	}
+
+.tableauacteurs{
+	background: black;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	
+	}
+
+.tableauacteurs thead td{
+	color: brown;
+	text-align: center;	
+	border-color: white;
+border-width: 1px;
+border-style: solid;	
+	}
+
+#tcorps td
+{
+color: darkgray;
+border-color: white;
+border-width: 1px;
+border-style: solid;
+font-family: monospace;
+font-size: 130%;	
+}
+
+a
+{
+text-decoration: none;
+color: powderblue;
+}
+
+
+	
+#menue a{
+	font: 200% 'Lucida Sans Unicode';
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+	}
+	
+#menue a:hover{
+	background: darkgrey;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px white;
+	}
+
+#menue{
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding-left: 15%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-top: 0.7%; 
+}
+
+#menue td
+{
+width: 150px;	
+}
+	
+.MenuMedia li 
+{
+display: none;
+}	
+	
+.MenuMedia:hover li
+{ 
+	display: block;
+	position: absolute;
+	background: linear-gradient(black, darkgrey);
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+	
+.MenuMedia li a
+{
+	margin-right: 5px;
+	margin-top: 5px;
+	display: block;
+	position: relative;
+}
+
+#thead{
+	font-size: 200%;
+	}
+footer
+{
+	border-style: solid;
+	border-top-color: black;
+	
+	text-align: center;
+	border-radius: 0px 0px 49px 49px;
+	background-color: peachpuff;
+	border-width: 2px;
+	margin-top: 10px;
+	margin-bottom: -3px;
+	}
+	
+
+#navsaisons{
+display: inline-block;	
+position: relative;
+bottom: 1000px;
+text-decoration: none;
+margin-left: 10px;
+
+}
+
+#toutelessaison{
+		display: inline-block;
+		position: relative;
+		top: 80px;	
+		width: 90%;
+		margin-bottom:80px;
+	}
+	
+#saison1
+{
+	margin-left: 10%;
+	display: inline-block;
+}
+	
+#saison1 h2
+{
+	color: rosybrown;	
+	font-family:  police2;
+	font-size: 200%;
+}
+
+
+#saison2
+{
+	margin-left: 10%;	
+}
+	
+#saison2 h2
+{
+	color: rosybrown;	
+	font-family:  police2;
+	font-size: 200%;	
+}
+
+#saison3
+{
+	margin-left: 10%;	
+}
+	
+#saison3 h2
+{
+	color: rosybrown;	
+	font-family:  police2;
+	font-size: 200%;;	
+}
+
+#saison4
+{
+	margin-left: 10%;	
+}
+	
+#saison4 h2
+{
+	color: rosybrown;	
+	font-family:  police2;
+	font-size: 200%;	
+}
+
+#saison5
+{
+	margin-left: 10%;
+	display: block;
+	position: relative;	
+}
+	
+#saison5 h2
+{
+	color: rosybrown;	
+	font-family:  police2;
+	font-size: 200%;	
+}
+	
+.saison1episodes
+{
+display: block;
+margin-left: 10px;
+color: red;
+}
+
+.saison2episodes
+{
+display: block;
+margin-left: 10px;
+color: red;	
+}	
+
+.saison3episodes
+{
+color: red;
+display: block;
+margin-left: 10px;	
+}
+
+.saison4episodes
+{
+color: red;
+display: block;
+margin-left: 10px;	
+}
+
+.saison5episodes
+{
+	color: red;
+display: block;
+margin-left: 10px;	
+}
+
+.saison1episodes li{
+display: none;
+ 	}
+.saison1episodes li a{
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+margin: 10px;
+ 	}
+ 
+.saison1episodes:hover li{
+	display: block;
+	position: absolute;
+	background-color: rgba(160, 160, 160, 0.5);
+	border-radius: 10px;
+	}
+	
+.saison2episodes li{
+display: none; 	
+ 	} 	
+ .saison2episodes li a{
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+margin: 10px;
+}
+.saison2episodes:hover li{
+	display: block;
+	position: absolute;
+	background-color: rgba(160, 160, 160, 0.5);
+	border-radius: 10px;
+	}
+	
+.saison3episodes li{
+display: none; 	
+ 	} 
+ 	
+.saison3episodes li a{
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+margin: 10px;
+}
+.saison3episodes:hover li{
+	display: block;
+	position: absolute;
+	background-color: rgba(160, 160, 160, 0.5);
+	border-radius: 10px;
+	}
+
+.saison4episodes li{
+display: none; 	
+ 	
+}
+
+.saison4episodes li a{
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+margin: 10px;
+}
+.saison4episodes:hover li{
+	display: block;
+	position: absolute;
+	background-color: rgba(160, 160, 160, 0.5);
+	border-radius: 10px;
+	}
+	
+.saison5episodes li{
+display: none; 	
+ 	}
+
+.saison5episodes li a{
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+margin: 10px;
+}
+
+.saison5episodes:hover li{
+	display: block;
+	position: absolute;
+	background-color: rgba(160, 160, 160, 0.5);
+	border-radius: 10px;
+	}	
+
+
+#tcorps img{
+	width: 200px;
+	height: 200px;	
+	margin: 10px;
+	}
+
+#galerie
+{
+	display: inline-block;
+height: 1000px;
+width: 15%;
+overflow: auto;
+}
+	
+#galerie img
+{
+    opacity: 0.4;
+    width: 90%;
+    margin: 1px;
+    border-color: white;
+    border-style: double;
+}
+
+#galerie img:hover {
+    opacity: 1.0;
+}
+
+#imageTailleRe img{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	width: 55%; 	
+	}
+
+#videos{
+	width: 90%;
+	margin-top: 10pt;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+	
